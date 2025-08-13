@@ -1,0 +1,118 @@
+//Program creates 3 ints between 1 and 100 and prints the smallest one
+//Integers are stored in 200, 201, 202 and smallest is stored in 199
+
+8
+7 //Store first int
+200
+7
+300
+9 //Print first int
+1
+1 //New line
+10
+9
+2
+
+8
+7 //Store second int
+201
+7
+301
+9 //Print second int
+1
+1 //New line
+10
+9
+2
+
+8
+7 //Store third int
+202
+7
+302
+9 //Print third int
+1
+1 //New line
+10
+9
+2
+
+23 //Call sort
+48
+
+1 //New line
+10
+9
+2
+2 //Load smallest int
+199
+9 //Print smallest int
+1
+1
+10
+9
+2
+50 //End
+
+//Sorting loop, decrements all ints until smallest reaches 0
+//Original value in 200s, decremented value in 300s
+//Address 200
+2  //Load from 300
+300
+14 //Copy to X and decrement
+26
+15
+7  //Store in 300
+300
+21 //Jump if 0
+77
+
+//Address 201
+2  //Load from 301
+301
+14 //Copy to X and decrement
+26
+15
+7  //Store in 301
+301
+21 //Jump if 0
+82
+
+//Address 202
+2  //Load from 302
+302
+14 //Copy to X and decrement
+26
+15
+7  //Store in 302
+302
+21 //Jump if 0
+87
+
+20 //Jump to start of loop
+48
+//End of loop
+
+//200 is smallest
+2  //Store smallest value in address 199
+200
+7
+199
+24 //Return
+
+//201 is smallest
+2  //Store smallest value in address 199
+201
+7
+199
+24 //Return
+
+//202 is smallest
+2  //Store smallest value in address 199
+202
+7
+199
+24 //Return
+
+.1000
+30
